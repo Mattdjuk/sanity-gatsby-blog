@@ -23,7 +23,7 @@ function BlogPost(props) {
           <img
             src={imageUrlFor(buildImageObj(mainImage))
               .width(1200)
-              .height(Math.floor((9 / 16) * 1200))
+              .height(Math.floor((9 / 16) * 600))
               .fit("crop")
               .auto("format")
               .url()}
